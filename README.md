@@ -3,4 +3,5 @@
 
 # 깃 명령어 기초
 버전확인 $ git --version
+설정확인 $ git config --list
 
