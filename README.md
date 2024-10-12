@@ -2,8 +2,8 @@
 ## OSS 교과목 내용(Git & GitHub)의 정리(개인과제 저장소)
 
 ### Git 명령어 기초
-- 버전확인 git --version
-- 설정확인 git config --list
+- `git --version`: 버전확인
+- `git config --list`: 설정확인
 
 ### Git의 핵심 명령어
 - `git clone`: 원격 저장소에서 로컬 저장소로 프로젝트를 복제
