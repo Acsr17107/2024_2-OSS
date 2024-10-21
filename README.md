@@ -16,6 +16,6 @@
 - `git config --global user.name _`
 - `git config --global user.email _`
 - `git config --global core.autocrlf true`
-- `git config --global`
-- `git config --global`
-- `git config --global`
+- `git config --global core.safecrlf false`
+- `git config --global core.editor 'code --wait'`
+- `git config --global init.defaultBranch main`
