@@ -14,7 +14,7 @@
 
 #### 주요 6가지 설정
 - `git config --global user.name _`
-- `git`
+- `git config --global user.email _`
 - `git`
 - `git`
 - `git`
