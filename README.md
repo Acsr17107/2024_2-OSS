@@ -20,6 +20,7 @@
 - `git config --global core.editor 'code --wait'`: 기본 편집기 설정
 - `git config --global init.defaultBranch main`: 기본 브랜치 이름
 
-#### 저장소 생성
+##### 저장소 생성
 - `git init _`: 저장소 생성
 - `cd _`: 폴더 이동
+- `ls -al`: 파일 확인
