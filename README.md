@@ -19,3 +19,6 @@
 - `git config --global core.safecrlf false`: 줄바꿈 안전 설정
 - `git config --global core.editor 'code --wait'`: 기본 편집기 설정
 - `git config --global init.defaultBranch main`: 기본 브랜치 이름
+
+#### 저장소 생성
+-
