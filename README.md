@@ -13,9 +13,9 @@
 - `git pull`: 원격 저장소의 최신 변경 사항을 로컬로 가져옴
 
 #### 주요 6가지 설정
-- `git config --global user.name _`
-- `git config --global user.email _`
-- `git config --global core.autocrlf true`
+- `git config --global user.name _`: 사용자 이름
+- `git config --global user.email _` : 사용자 메일
+- `git config --global core.autocrlf true`: 
 - `git config --global core.safecrlf false`
 - `git config --global core.editor 'code --wait'`
 - `git config --global init.defaultBranch main`
