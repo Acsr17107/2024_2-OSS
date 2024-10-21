@@ -21,4 +21,4 @@
 - `git config --global init.defaultBranch main`: 기본 브랜치 이름
 
 #### 저장소 생성
--
+- `git init _`: 저장소 생성
