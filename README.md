@@ -15,7 +15,7 @@
 #### 주요 6가지 설정
 - `git config --global user.name _`
 - `git config --global user.email _`
-- `git`
-- `git`
-- `git`
-- ``
+- `git config --global core.autocrlf true`
+- `git config --global`
+- `git config --global`
+- `git config --global`
