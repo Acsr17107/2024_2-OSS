@@ -15,7 +15,7 @@
 #### 주요 6가지 설정
 - `git config --global user.name _`: 사용자 이름
 - `git config --global user.email _` : 사용자 메일
-- `git config --global core.autocrlf true`: 
-- `git config --global core.safecrlf false`
-- `git config --global core.editor 'code --wait'`
-- `git config --global init.defaultBranch main`
+- `git config --global core.autocrlf true`: 줄바꿈 자동변환
+- `git config --global core.safecrlf false`: 줄바꿈 안전 설정
+- `git config --global core.editor 'code --wait'`: 기본 편집기 설정
+- `git config --global init.defaultBranch main`: 기본 브랜치 이름
