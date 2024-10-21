@@ -20,7 +20,11 @@
 - `git config --global core.editor 'code --wait'`: 기본 편집기 설정
 - `git config --global init.defaultBranch main`: 기본 브랜치 이름
 
-##### 저장소 생성
+####설정범위
+- `--global`: 현재 사용자에게 전역적으로 설정
+- `--local`: 현재 저장소에만 설정
+
+####
 - `git init _`: 저장소 생성
 - `cd _`: 폴더 이동
 - `ls -al`: 파일 확인
