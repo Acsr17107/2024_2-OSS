@@ -77,7 +77,16 @@
 
 ### 변경사항 관리
 - **`git status`** : 변경 상태 확인
+- **`git add [파일명]`** : 변경된 파일 스테이징
+- **`git commit -m [메세지]`** : 커밋 저장
 
+---
 
+### Git 로그 및 이력 확인
+**`git log`** : 기본 로그 확인  
+**`git log --oneline`** : 한 줄 로그 확인  
+**`git log --graph`** : 그래프 형태로 확인 
+**`git checkout HEAD~1`** : 이전 커밋으로 이동  
+**`git checkout main`** : 최신 상태로 복귀  
 
-
+---
