@@ -50,7 +50,7 @@
 - **`cat f`** : 파일 f 내용을 화면에 출력
 - **`cp f1 f2`** : 파일 f1을 파일 f2로 복사
 - **`mv old_file new_file`** : 파일 old_file을 파일 new_file로 이름 변경
-
+- **`rm f`** : 파일 f를 삭제
 
 
 
