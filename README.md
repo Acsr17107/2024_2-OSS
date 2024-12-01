@@ -16,3 +16,17 @@
 - **`--system`** : 모든 사용자
 - **`--global`** : 모든 저장소에 적용 (전역 설정)
 - **`--local`** : 현재 저장소에만 적용 (로컬 설정)
+
+---
+
+1. **사용자 정보**
+   - `git config --global user.name "사용자 이름"` : 사용자 이름 설정
+   - `git config --global user.email "이메일 주소"` : 사용자 이메일 설정
+
+2. **줄바꿈 설정**
+   - `git config --global core.autocrlf true` : 자동 줄바꿈 변환
+   - `git config --global core.safecrlf false` : 줄바꿈 안전 설정
+
+3. **편집기와 기본 브랜치 설정**
+   - `git config --global core.editor 'code --wait'` : 기본 편집기 설정
+   - `git config --global init.defaultBranch main` : 기본 브랜치 이름 설정
