@@ -32,3 +32,18 @@
 3. **편집기와 기본 브랜치 설정**
    - `git config --global core.editor 'code --wait'` : 기본 편집기 설정
    - `git config --global init.defaultBranch main` : 기본 브랜치 이름 설정
+
+---
+
+### 리눅스 기본 명령어
+- **`pwd`** : 현재 폴더 표시
+- **`cd Directory1`** : Directory1 폴더로 이동
+- **`ls`** : 현재 폴더의 파일 목록 조회
+- `ls -a` : 숨김 파일 포함 모든 파일 표시
+- `ls -l` : 파일 목록과 상세 정보 표시
+- `ls -al` : 숨김 파일과 상세 정보를 모두 표시
+
+
+
+
+
