@@ -19,6 +19,8 @@
 
 ---
 
+### 주요 설정 명령어
+
 1. **사용자 정보**
    - `git config --global user.name "사용자 이름"` : 사용자 이름 설정
    - `git config --global user.email "이메일 주소"` : 사용자 이메일 설정
