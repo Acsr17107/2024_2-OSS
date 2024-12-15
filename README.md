@@ -37,25 +37,25 @@
 ### 로그 이력
 - **`git status -s`**로 로그이력 조사
 - 작업 디렉토리   스테이징 영역   깃 저장소
-       aaa                                  ??(빨강)
-       aaa           aaa                    A (초록)
-       aaa           aaa           aaa       표시 X
+-      aaa                                  ??(빨강)
+-      aaa           aaa                    A (초록)
+-      aaa           aaa           aaa       표시 X
 
-       aaa
+-      aaa
        bbb                                  M (빨강)
 
-       aaa           aaa            aaa
--      bbb           bbb            bbb      표시 X
+-      aaa           aaa            aaa
+       bbb           bbb            bbb      표시 X
 
 -      aaa           aaa            aaa
--      bbb           bbb            bbb
--      ccc                                   M (빨강)
+       bbb           bbb            bbb
+       ccc                                   M (빨강)
 
 -      aaa           aaa            aaa
--      bbb           bbb            bbb
--      ccc           ccc                     M (초록)
+       bbb           bbb            bbb
+       ccc           ccc                     M (초록)
 
 -      aaa           aaa            aaa
--      bbb           bbb            bbb
--      ccc           ccc                     
--      ddd                                   MM(초록 빨강)
+       bbb           bbb            bbb
+       ccc           ccc                     
+       ddd                                   MM(초록 빨강)
