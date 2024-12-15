@@ -27,7 +27,7 @@
 
 ### 과거 당시의 파일 내용 확인
 
-- (현재 상태가 깨끗할 경우 가능)
+- ```(현재 상태가 깨끗할 경우 가능)```
 - **`git checkout HEAD~`** : HEAD 이전 커밋으로 이동
 - **`git checkout -`** : 이전 checkout으로 이동
 - **`git checkout main`** : 브랜치의 마지막 커밋으로 이동
