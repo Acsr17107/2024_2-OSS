@@ -19,7 +19,9 @@
 - **`git show`** : 마지막 커밋 정보 표시
    - **`git show --oneline`** : 커밋 로그 한 줄, 파일 차이 표시
    - **`git show -s`** : 파일 차이는 표시 X
-   - **`git show [HEAD]`** : 지정한 HEAD 커밋 정보 표시
+   - **`git show HEAD`** : 현재 커밋 정보 표시
+      - `HEAD~, HEAD~1, HEAD^,zHEAD^1` : 바로 전 커밋 정보 표시
+      - `HEAD~~, HEAD~2, HEAD^^, HEAD^~, HEAD~^` : 2단계 전 커밋 정보 표시
 
 ---
 
