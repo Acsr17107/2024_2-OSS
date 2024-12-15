@@ -20,8 +20,16 @@
    - **`git show --oneline`** : 커밋 로그 한 줄, 파일 차이 표시
    - **`git show -s`** : 파일 차이는 표시 X
    - **`git show HEAD`** : 현재 커밋 정보 표시
-      - `HEAD~, HEAD~1, HEAD^,zHEAD^1` : 바로 전 커밋 정보 표시
-      - `HEAD~~, HEAD~2, HEAD^^, HEAD^~, HEAD~^` : 2단계 전 커밋 정보 표시
+      - **`HEAD~, HEAD~1, HEAD^,zHEAD^1`** : 바로 전 커밋 정보 표시
+      - **`HEAD~~, HEAD~2, HEAD^^, HEAD^~, HEAD~^`** : 2단계 전 커밋 정보 표시
 
 ---
 
+### 과거 당시의 파일 내용 확인
+
+- (현재 상태가 깨끗할 경우 가능)
+- **`git checkout HEAD~`** : HEAD 이전 커밋으로 이동
+- **`git checkout -`** : 이전 checkout으로 이동
+- **`git checkout main`** : 브랜치의 마지막 커밋으로 이동
+
+---
