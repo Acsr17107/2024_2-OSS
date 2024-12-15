@@ -29,7 +29,7 @@
 
 - ```(현재 상태가 깨끗할 경우 가능)```
 - **`git checkout HEAD~`** : HEAD 이전 커밋으로 이동
-- **`git checkout -`** : 이전 checkout으로 이동
-- **`git checkout main`** : 브랜치의 마지막 커밋으로 이동
+- **`git checkout -`** : 다시 checkout 이전으로 이동
+- **`git checkout main`** : 다시 최신 버전으로 이동
 
 ---
