@@ -27,9 +27,35 @@
 
 ### 과거 당시의 파일 내용 확인
 
-- ```(현재 상태가 깨끗할 경우 가능)```
+- ```(3영역 동일한 상태일 때 가능)```
 - **`git checkout HEAD~`** : HEAD 이전 커밋으로 이동
 - **`git checkout -`** : 다시 checkout 이전으로 이동
 - **`git checkout main`** : 다시 최신 버전으로 이동
 
 ---
+
+### 로그 이력
+- **`git status -s`**로 로그이력 조사
+- 작업 디렉토리   스테이징 영역   깃 저장소
+-      aaa                                  ??(빨강)
+-      aaa           aaa                    A (초록)
+-      aaa           aaa           aaa       표시 X
+
+-      aaa
+-      bbb                                  M (빨강)
+
+-      aaa           aaa            aaa
+-      bbb           bbb            bbb      표시 X
+
+-      aaa           aaa            aaa
+-      bbb           bbb            bbb
+-      ccc                                   M (빨강)
+
+-      aaa           aaa            aaa
+-      bbb           bbb            bbb
+-      ccc           ccc                     M (초록)
+
+-      aaa           aaa            aaa
+-      bbb           bbb            bbb
+-      ccc           ccc                     
+-      ddd                                   MM(초록 빨강)
