@@ -5,6 +5,10 @@
 
 #### 깃 명령 파일 삭제
 -**`git rm [file]`** : 작업 디렉토리와 스테이징 영역에서 모두 file 삭제
+(Tracked 상태 -> Untracked 상태)
 
+-**`git rm –-cached [file]`** : 스테이징 영역에서 file 삭제
+
+SA에 파일X, GR에 파일O 일 경우 **`git status -s`**시 D(초록) file
 
 ---
