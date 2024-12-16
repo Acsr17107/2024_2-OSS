@@ -9,8 +9,8 @@
 
 - **`git rm –-cached [file]`** : SA삭제
 
-SA, WD에 파일X일 경우 **`git status -s`**시 D(초록) file
-SA에만 파일이 없으면 ??(빨강) file(Untracked 의미)
+- SA, WD에 파일X일 경우 **`git status -s`**시 D(초록) file
+- SA에만 파일이 없으면 ??(빨강) file(Untracked 의미)
 
 ---
 
